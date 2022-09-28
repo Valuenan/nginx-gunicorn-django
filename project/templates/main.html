@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--Подключаем библиотеку-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script  src='{% static "script.js" %}'></script>
+</head>
+<body>
+
+    <form method="post">
+        {% csrf_token %}
+        <div id="container">
+            <input type="text" name="name1">
+        </div>
+        <button type="post">
+            save
+        </button>
+        <input type="button" id="add" value="add">
+    </form>
+
+</body>
+</html>
