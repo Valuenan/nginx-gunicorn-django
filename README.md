@@ -173,7 +173,7 @@ sudo ln -s /etc/nginx/sites-available/project /etc/nginx/sites-enabled
 sudo nginx -t
 ```
 
-Закрываем открываем доступ на 80 порт
+Закрываем открываем доступ на 85 порт
 
 ```dash
 sudo ufw allow 'Nginx Full'
