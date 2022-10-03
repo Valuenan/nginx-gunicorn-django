@@ -58,7 +58,7 @@ sudo ufw allow 8000
 sudo nano /etc/systemd/system/gunicorn.socket
 ```
 
-прописываем настроки
+прописываем настройки
 
 ```dash
 [Unit]
@@ -76,7 +76,7 @@ WantedBy=sockets.target
 ```dash
 sudo nano /etc/systemd/system/gunicorn.service
 ```
-прописываем настроки
+прописываем настройки
 
 ```dash
 [Unit]
